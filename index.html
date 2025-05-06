@@ -8,10 +8,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="canonical" href="https://maxlandscapedesign.com/" />
+<link rel="canonical" href="https://maxlandscapedesign.com" />
 	
   <meta name="description" content="Max was amazing & did a fantastic job, efficiently & delivered the project on time.">
-  <meta name="author" content="Max, Design & Construction">
+  <meta name="author" content="Max Design & Construction">
 
   <title>Max, Design & Construction</title>
 
@@ -46,8 +46,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Max, Design & Construction",
-    "url": "https://maxlandscapedesign.com/",
+    "name": "Max Design & Construction",
+    "url": "https://maxlandscapedesign.com",
     "logo": "https://maxdesignconstruction.github.io/FINAL/android-chrome-256x256.png"
   }
   </script>
@@ -125,11 +125,6 @@ background-color: darkblue;
   background-color: rgba(255, 90, 50, 1);
 } */
 
-body {
-		background-color: #3c2f2c;
-			cursor: url("STARS-OF-SAM.png"), auto;
-}
-
 .pp {
 	padding: 40px;
 }
@@ -153,8 +148,12 @@ header.container {
 }
 
 .container {
-	background-color: #3c2f2c;
-	max-width: 94%;
+  max-width: 94%;
+  background-image: url("bb.png");
+  background-repeat: repeat;
+  background-size: 30%; /* or try cover */
+  background-position: center;
+  outline: 2px solid #000000;
 }
 
 .logo {
@@ -170,9 +169,25 @@ header.container {
 }
 
 /* Adjust logo size for smaller screens */
+@media (min-width: 768px) {
+  body {
+    background-image: url("../img/grass.png");
+    background-repeat: repeat;
+    background-size: 30%; /* or try cover */
+    background-position: center;
+    cursor: url("STARS-OF-SAM.png"), auto;
+      }
+}
+
+/* Adjust logo size for smaller screens */
 @media (max-width: 768px) {
     .logo {
         width: 150px;
+    }
+
+    body {
+        background-color: #3c2f2c;
+  	cursor: url("STARS-OF-SAM.png"), auto;
     }
 }
 
