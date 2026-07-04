@@ -530,7 +530,7 @@ padding-right: 20px;
                  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
              </button>
-                 <p class="Max">MAX DESIGN & CONSTRUCTION</p>
+			 <p class="Max" id="copyLink" data-url="https://maxlandscapedesign.com/index.html" style="cursor:pointer;">MAX DESIGN & CONSTRUCTION</p> 
              <!-- Centered Logo and Title -->
              <div class="mx-auto text-center d-flex flex-column align-items-center">
                <picture>
@@ -688,6 +688,16 @@ padding-right: 20px;
         <!--Java Script for Lightbox THIS IS A MUST HAVE LINK AND CODE TO ACTIVATE LIGHTBOX FOR YOUR WEBSITE-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
             <script> baguetteBox.run('.compact-gallery', {animation:'slideIn'});</script>
+
+
+<script>
+  document.getElementById("copyLink").addEventListener("click", () => {
+    const url = document.getElementById("copyLink").dataset.url;
+    navigator.clipboard.writeText(url);
+  });
+</script>
+
+     
   </body>
 </html>
 <!-- ****** Blank Bootstrap 4.5 starting template for 101922, Web & Time Based Design  ***** -->
