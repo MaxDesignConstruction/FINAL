@@ -1,0 +1,9 @@
+# Max Landscape Design
+
+Website: https://maxlandscapedesign.com
+
+Description:
+Professional landscaping and outdoor construction services.
+
+Sitemap:
+https://maxlandscapedesign.com/sitemap.xml
