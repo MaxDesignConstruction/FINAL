@@ -272,17 +272,6 @@ font-size: 1.5vw;
 }
 }
 
-.middle {
-  display: flex;
-  justify-content: center;
-}
-
-.Mid {
-align-content: center;
-        font-weight: bold;
-        align-self: center;
-}
-
 .center {
 	  text-align: center;
 }
@@ -432,9 +421,188 @@ background-size: cover;
 background-position: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
 font-family: 'Noto Serif', serif;
+margin-bottom: 0px;
 }
+
+h1  /*normal h1 is used on the services page so I had to make this class h1 in order to adjust the h1 on the home page without effecting with the h1 on the services page*/ {
+  font-size: 6.5vw;
+      	padding: 30px;
+}
+
+.h2  /*normal h2 is used on the services page so I had to make this class h2 in order to adjust the h2 on the home page without effecting with the h2 on the services page*/ {
+      font-size: 6.5vw;
+      font-weight: bold;
+      margin-bottom: 7px;
+      	padding: 0% 5%;
+}
+
+.h3 /*normal H3 is used on the services page so I had to make this class h3 in order to adjust the h3 on the home page without effecting with the h3 on the services page*/ {
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: #FFCC33;
+  color: snow;
+  font-weight: bold;
+margin: 3% 5% 4% 5%;
+}
+
+.h4 /*normal H4 is used on the services page so I had to make this class h4 in order to adjust the h4 on the home page without effecting with the h4 on the services page*/ {
+  color: Snow;
+  font-size: 4vw;
+margin: 4% 5%;
+  	font-weight: normal;
+      text-transform: none;
+}
+
+	h2 {
+ color: transparent;
+	font-weight: bold;
+		 animation: effect 2s linear infinite;
+     margin-bottom: 10px;
+		 }
+
+		 @keyframes effect {
+0% {
+	 background: linear-gradient(#FF6600, #FFCC33);
+	 -webkit-background-clip: text;
+	 }
+
+100% {
+			 background: linear-gradient(#FFCC33, #FF6600);
+	 -webkit-background-clip: text;
+}
+}
+
+h3 /*this is used on the services page*/ {
+	color: #FFCC33;
+	color: transparent;
+animation: effect 2s linear infinite;
+}
+
+h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+	color: #FFCC33;
+	color: snow;
+	font-weight: bold;
+margin-bottom: 15px;
+}
+
+.glow {
+	color: #FFCC33;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.Mid {
+align-content: space-between;
+        font-weight: bold;
+}
+
+.Mid2 {
+        font-weight: bold;
+        align-self: center;
+    }
+
+    .pad0 {
+      margin-top: 5px;
+    }
+
+.middle {
+  align-content: space-between;
+  justify-content: left;
+}
+
+@media (max-width: 1000px) {
+
+  h1  /*normal h1 is used on the services page so I had to make this class h1 in order to adjust the h1 on the home page without effecting with the h1 on the services page*/ {
+    font-size: 8vw;
+        	padding: 30px 0px;
+  }
+
+.h2  /*normal h2 is used on the services page so I had to make this class h2 in order to adjust the h2 on the home page without effecting with the h2 on the services page*/ {
+      font-size: 7vw;
+      font-weight: bold;
+      margin: 0px 0px 7px 0px;
+      padding: 0px;
+}
+
+.h3 /*normal H3 is used on the services page so I had to make this class h3 in order to adjust the h3 on the home page without effecting with the h3 on the services page*/ {
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: #FFCC33;
+  color: snow;
+  font-weight: bold;
+      margin: 0px 0px 15px 0px;
+padding: 0px;
+}
+
+.h4 /*normal H4 is used on the services page so I had to make this class h4 in order to adjust the h4 on the home page without effecting with the h4 on the services page*/ {
+  color: Snow;
+  font-size: 4vw;
+      margin: 0px 0px 12px 0px;
+  	font-weight: normal;
+      text-transform: none;
+      padding: 0px;
+}
+
+.Mid {
+        font-weight: bold;
+        align-self: center;
+}
+
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media (max-width: 576.5px) {
+
+  h1  /*normal h1 is used on the services page so I had to make this class h1 in order to adjust the h1 on the home page without effecting with the h1 on the services page*/ {
+    font-size: 10vw;
+    	padding: 10px 0px;
+  }
+
+.h2  /*normal h2 is used on the services page so I had to make this class h2 in order to adjust the h2 on the home page without effecting with the h2 on the services page*/ {
+      font-size: 10vw;
+      font-weight: bold;
+      margin: 0px 0px 7px 0px;
+        padding: 0px;
+}
+
+  .h3 /*normal H3 is used on the services page so I had to make this class h3 in order to adjust the h3 on the home page without effecting with the h3 on the services page*/ {
+    font-size: 5.4vw;
+    text-transform: uppercase;
+    font-weight: bold;
+      margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+
+.h4 /*normal H4 is used on the services page so I had to make this class h4 in order to adjust the h4 on the home page without effecting with the h4 on the services page*/ {
+  font-size: 4.4vw;
+      margin: 0px 0px 12px 0px;
+    font-weight: normal;
+      text-transform: none;
+        padding: 0px;
+}
+
+.Mid {
+align-content: center;
+        font-weight: bold;
+        align-self: center;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+    }
+
 
 p, ul, ol, a, li {
 font-family: 'Noto Sans', sans-serif;
@@ -1089,14 +1257,23 @@ a.social:hover {
       </div>
      </header>
 
-     <!-- Content goes here -->
-     <div class="container">
-<h1 class="glow" id="home">ABOUT US</h1>
-<div class="gallery-block2 compact-gallery">
-  <div class="row">
-      <div class="col-6 col-md-7 main middle px-0">
-        <p class="fontsize Mid pad1">My name is Max Hojatzadeh, and I’m a landscape architect with over 23 years of experience in landscape design and construction. I started my academic journey in Iran, where I earned a Bachelor's degree in Agriculture. After moving to Australia, I expanded my expertise by completing a Diploma in Landscape Design and a Landscape Construction course at TAFE NSW. I later graduated with a degree in Landscape Architecture from the University of Technology Sydney (UTS), combining my background in agriculture with a formal education in design and construction.</p>
-      </div>
+       <!-- Content goes here -->
+       <div class="container">
+
+         <h1 class="glow" id="home">Best choice for all your Landscaping needs.</h1>
+         <div class="gallery-block2 compact-gallery">
+           <div class="row">
+               <div class="col-6 col-md-7 main middle px-0">
+                    <div class="pad2 Mid">
+                 <h2 class="h2">About Us</h2>
+                 <h3 class="h3 px-0">Why Choose Us?</h3>
+                   <h4 class="h4 pad0">⭐ Licensed & insured</h4>
+                   <h4 class="h4">⭐ Quality materials</>
+                   <h4 class="h4">⭐ Free quotes</h4>
+                   <h4 class="h4">⭐ Experienced team</h4>
+                   <h4 class="h4">⭐ Attention to detail</h4>
+                    </div>
+               </div>
 
 
 
@@ -1118,14 +1295,15 @@ a.social:hover {
                    </div>
                  </div>
 
+	                   <p class="fontsize Mid2 pad1">My name is Max Hojatzadeh, and I’m a landscape architect with over 23 years of experience in landscape design and construction. I started my academic journey in Iran, where I earned a Bachelor's degree in Agriculture. After moving to Australia, I expanded my expertise by completing a Diploma in Landscape Design and a Landscape Construction course at TAFE NSW. I later graduated with a degree in Landscape Architecture from the University of Technology Sydney (UTS), combining my background in agriculture with a formal education in design and construction.</p>
 
 
+              <div class="vanish2">
+                                                               <div class="col-12 px-0 main middle">
+                                                                 <p class="fontsize Mid2 center pad3">With more than two decades in the field, I’ve developed a deep appreciation for the technical and creative sides of landscaping. I see landscape design as an art form – each project is an opportunity to craft a space that seamlessly integrates nature with human design.</p>
+                                                                </div>
+                          </div>
 
-                 <div class="vanish2">
-                                                      <div class="col-12 px-0 main middle">
-                                                        <p class="fontsize Mid center pad3">With more than two decades in the field, I’ve developed a deep appreciation for the technical and creative sides of landscaping. I see landscape design as an art form – each project is an opportunity to craft a space that seamlessly integrates nature with human design.</p>
-                                                       </div>
-                 </div>
 
                  <div class="carousel2 col-6 col-md-3 col-lg-4 col-xl-4 px-0 item">
                               <div class="slides lightbox">
@@ -1144,10 +1322,10 @@ a.social:hover {
                               </div>
                             </div>
 
-<div class="vanish col-md-6 col-lg-4 col-xl-4 px-0 Mid">
-                            <div class="main middle Mid center px-0">
-                              <p class="fontsize pad5">With more than two decades in the field, I’ve developed a deep appreciation for the technical and creative sides of landscaping. I see landscape design as an art form – each project is an opportunity to craft a space that seamlessly integrates nature with human design. My focus is always on creating sustainable, aesthetically pleasing landscapes that work harmoniously with the environment. I believe in not just designing beautiful spaces, but also constructing them with the utmost care and attention to detail, treating each project like a handcrafted work of art.</p>
-                             </div>
+<div class="vanish col-md-6 col-lg-4 col-xl-4 px-0 Mid2">
+                                     <div class="main middle Mid2 center px-0">
+                                       <p class="fontsize pad5">With more than two decades in the field, I’ve developed a deep appreciation for the technical and creative sides of landscaping. I see landscape design as an art form – each project is an opportunity to craft a space that seamlessly integrates nature with human design. My focus is always on creating sustainable, aesthetically pleasing landscapes that work harmoniously with the environment. I believe in not just designing beautiful spaces, but also constructing them with the utmost care and attention to detail, treating each project like a handcrafted work of art.</p>
+                                      </div>
 </div>
 
                             <div class="carousel2 col-6 col-md-3 col-lg-4 col-xl-4 px-0 item">
@@ -1168,9 +1346,9 @@ a.social:hover {
                                        </div>
 
                                        <div class="vanish2">
-                                                                            <div class="col-12 px-0 main middle">
-                                                                              <p class="fontsize Mid center pad4">My focus is always on creating sustainable, aesthetically pleasing landscapes that work harmoniously with the environment. I believe in not just designing beautiful spaces, but also constructing them with the utmost care and attention to detail, treating each project like a handcrafted work of art.</p>
-                                                                             </div>
+                                                                             <div class="col-12 px-0 main middle">
+                                                                                       <p class="fontsize Mid2 center pad4">My focus is always on creating sustainable, aesthetically pleasing landscapes that work harmoniously with the environment. I believe in not just designing beautiful spaces, but also constructing them with the utmost care and attention to detail, treating each project like a handcrafted work of art.</p>
+                                                                                      </div>
                                        </div>
 
                                        <div class="carousel2 fade-up col-6 col-md-5 col-lg-5 col-xl-5 px-0 item">
@@ -1192,10 +1370,10 @@ a.social:hover {
 
 
 
-                                     <div class="col-6 col-md-7 col-lg-7 col-xl-7 main middle px-0">
-                                       <p class="fontsize Mid pad2">One of the aspects I enjoy most about my work is interacting with clients. I find great satisfaction in understanding their visions and turning them into reality. Building strong relationships with my clients and collaborating with them throughout the design and construction process is incredibly fulfilling. Whether it's a residential garden or a large commercial project, I approach every job with enthusiasm and passion, ensuring that the end result is not only beautiful but also functional and built to last.</p>
-                                       </div>
-                                         </div>
+                                              <div class="col-6 col-md-7 col-lg-7 col-xl-7 main middle px-0 Mid2">
+                                                <p class="fontsize Mid2 pad2">One of the aspects I enjoy most about my work is interacting with clients. I find great satisfaction in understanding their visions and turning them into reality. Building strong relationships with my clients and collaborating with them throughout the design and construction process is incredibly fulfilling. Whether it's a residential garden or a large commercial project, I approach every job with enthusiasm and passion, ensuring that the end result is not only beautiful but also functional and built to last.</p>
+                                                </div>
+                                                  </div>
 
 		 
       <h1 class="glow" id="home">REVIEWS</h1>
