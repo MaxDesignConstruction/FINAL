@@ -270,8 +270,35 @@ font-size: 1.5vw;
     .container {
     max-width: 100%;
 }
+
+	/*header style*/
+.header{
+margin-left: 0%;
+max-width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-color: #3c2f2c;
+}
 }
 
+@media (min-width: 576.5px) {
+/*header style*/
+.header{
+margin-left: 2.8%;
+max-width: 94.35%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-color: #3c2f2c;
+}
+}
+
+
+
+
+
+	
 .center {
 	  text-align: center;
 }
@@ -608,14 +635,6 @@ p, ul, ol, a, li {
 font-family: 'Noto Sans', sans-serif;
 color: Snow;
 margin-bottom: 0;
-}
-
-/*header style*/
-.header{
-	position: relative;
-	background-size: cover;
-	background-position: center;
-	background-color: blue;
 }
 
 .description{
@@ -1152,6 +1171,33 @@ a.social:hover {
 	  color: snow;
 	}
 }
+
+
+
+	/* navbar CSS generator: https://work.smarchal.com/twbscolor/ */
+
+.carousel-social-widget {
+  position: absolute;
+  bottom: 0px;       /* move up/down */ /* move left/right */
+  z-index: 30;        /* above images */
+  display: flex;
+  align-items: center;
+  background: rgba(0,0,0,0.45);
+  padding: 0px 10px;
+  border-radius: 8px;
+  font-size: 8vw;
+}
+
+.carousel-social-widget i {
+  color: #fff;
+  padding: 10px 14px;
+}
+
+.carousel-social-widget .white {
+  color: #fff;
+  font-size: 22px;
+  padding-left: 10px;
+}
 /* LIGHTBOX Finish here */
 
 /* ACCORDIAN starts here */
@@ -1210,52 +1256,74 @@ a.social:hover {
          </div>
      </nav>
 
-<header class="header">
-       <div class="space-3">
-       </div>
-       <div class="gallery-block2 compact-gallery">
-       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-<div class="carousel-item active">
-  <a class="lightbox" href="formal-garden-hedge-trimming-stone-planter-landscaping-sydney.jpeg" title="Formal Garden Landscaping – Hedges, Topiary & Stone Features (Sydney)">
-    <img src="formal-garden-hedge-trimming-stone-planter-landscaping-sydney.jpeg" class="img-fluid image d-block w-100" alt="Formal landscaped garden in Sydney featuring neatly trimmed hedges, rounded topiary shrubs, stone planter and mulched garden beds.">
-  </a>
-</div>
-<div class="carousel-item">
-  <a class="lightbox" href="modern-timber-deck-granny-flat-backyard-sydney.png" title="Modern Timber Deck Landscaping – Granny Flat Backyard (Sydney)">
-    <img src="modern-timber-deck-granny-flat-backyard-sydney.png" class="img-fluid image d-block w-100" alt="Modern granny flat backyard in Sydney featuring a large timber deck, recessed lawn area and an ornamental feature tree.">
-  </a>
-</div>
-<div class="carousel-item">
-  <a class="lightbox" href="formal-garden-lawn-hedges-flowerbeds-sydney.jpeg" title="Formal Garden Landscaping – Lawn, Hedges & Flower Beds (Sydney)">
-    <img src="formal-garden-lawn-hedges-flowerbeds-sydney.jpeg" class="img-fluid image d-block w-100" alt="Formal landscaped garden in Sydney with lush lawn, trimmed hedges, stone retaining walls and vibrant flower beds.">
-  </a>
-</div>
+  <header class="header">
+         <div class="space-3">
+         </div>
+         <div class="gallery-block2 compact-gallery">
+           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-<div class="carousel-item">
-  <a class="lightbox" href="cobblestone-paving-walkway-modern-landscaping-sydney.png" title="Cobblestone Paving – Modern Walkway & Outdoor Landscaping (Sydney)">
-    <img src="cobblestone-paving-walkway-modern-landscaping-sydney.png" class="img-fluid image d-block w-100" alt="Modern cobblestone paved walkway in Sydney with square stone pavers, glass fencing and landscaped outdoor area.">
-  </a>
-</div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only px-4">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only px-4">Next</span>
-          </a>
-        </div>
-        </div>
-      </div>
-     </header>
+             <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+             </ol>
+
+             <div class="carousel-inner">
+
+
+
+               <div class="carousel-item active">
+                 <a class="lightbox" href="formal-garden-hedge-trimming-stone-planter-landscaping-sydney.jpeg" title="Formal Garden Landscaping – Hedges, Topiary & Stone Features (Sydney)">
+                   <img src="formal-garden-hedge-trimming-stone-planter-landscaping-sydney.jpeg" class="img-fluid image d-block w-100" alt="Formal landscaped garden in Sydney featuring neatly trimmed hedges, rounded topiary shrubs, stone planter and mulched garden beds.">
+                 </a>
+               </div>
+
+               <div class="carousel-item">
+                 <a class="lightbox" href="modern-timber-deck-granny-flat-backyard-sydney.png" title="Modern Timber Deck Landscaping – Granny Flat Backyard (Sydney)">
+                   <img src="modern-timber-deck-granny-flat-backyard-sydney.png" class="img-fluid image d-block w-100" alt="Modern granny flat backyard in Sydney featuring a large timber deck, recessed lawn area and an ornamental feature tree.">
+                 </a>
+               </div>
+
+               <div class="carousel-item">
+                 <a class="lightbox" href="formal-garden-lawn-hedges-flowerbeds-sydney.jpeg" title="Formal Garden Landscaping – Lawn, Hedges & Flower Beds (Sydney)">
+                   <img src="formal-garden-lawn-hedges-flowerbeds-sydney.jpeg" class="img-fluid image d-block w-100" alt="Formal landscaped garden in Sydney with lush lawn, trimmed hedges, stone retaining walls and vibrant flower beds.">
+                 </a>
+               </div>
+
+               <div class="carousel-item">
+                 <a class="lightbox" href="cobblestone-paving-walkway-modern-landscaping-sydney.png" title="Cobblestone Paving – Modern Walkway & Outdoor Landscaping (Sydney)">
+                   <img src="cobblestone-paving-walkway-modern-landscaping-sydney.png" class="img-fluid image d-block w-100" alt="Modern cobblestone paved walkway in Sydney with square stone pavers, glass fencing and landscaped outdoor area.">
+                 </a>
+               </div>
+
+
+               <!-- FIXED SOCIAL WIDGET -->
+               <div class="carousel-social-widget vanish">
+                 <a class="vanish px-2 social" href="tel:0431948699"><i class="vanish fas fa-phone-square-alt "></i>
+                 <a class="vanish px-2 social" href="mailto:maxlandscapedesign@gmail.com" target="_blank"><i class="vanish fas fa-envelope-square "></i>
+                 <a class="vanish px-2 social" href="https://www.youtube.com/@maxlandscaping" target="_blank"><i class="vanish fab fa-youtube "></i>
+                 <a class="vanish px-2 social" href="https://www.instagram.com/maxlandscapedesign/" target="_blank"><i class="vanish fab fa-instagram-square "></i>
+                 <a class="vanish px-2 social" href="https://www.facebook.com/people/Max-Design-Construction/100063697147951/" target="_blank"><i class="vanish fab fa-facebook "></i>
+               </div>
+
+             </div>
+
+             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only px-4">Previous</span>
+             </a>
+
+             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only px-4">Next</span>
+             </a>
+
+           </div>
+         </div>
+
+
+       </header>
 
        <!-- Content goes here -->
        <div class="container">
